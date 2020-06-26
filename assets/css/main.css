@@ -99,11 +99,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #858aa3;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #d19ea4 85%, #d4cee7 195%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #b17179 75%, #bfa9ff 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #7a595d 75%, #9a86d1 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #38a1e7 65%, #d2cce4 85%);
+		background-color: #935d8c;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3077,7 +3077,7 @@ input, select, textarea {
 	}
 
 		#header h1 {
-			margin: 0 0 0 0;
+			margin: 0 0 0.25em 0;
 		}
 
 		#header p {
@@ -3121,8 +3121,7 @@ input, select, textarea {
 				#header.alt .logo img {
 					display: block;
 					margin: 0 auto;
-					max-width: 40%;
-				
+					max-width: 75%;
 				}
 
 		@media screen and (max-width: 1280px) {
@@ -3694,9 +3693,8 @@ input, select, textarea {
 		padding: 5em 5em 3em 5em ;
 		width: calc(100% + 2em);
 		margin: 0 0 3em -2em;
-		text-align: center;
 	}
-	 
+
 		#footer > * {
 			width: calc(50% - 2em);
 			margin-left: 2em;
@@ -3706,8 +3704,7 @@ input, select, textarea {
 			width: 100%;
 			margin: 2.5em 0 2em 0;
 			font-size: 0.8em;
-			padding-left: 2em;
-			
+			text-align: center;
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -3715,9 +3712,7 @@ input, select, textarea {
 			#footer {
 				padding: 4em 4em 2em 4em ;
 			}
-			a.button{
-				margin-left: 130pt;
-				} 
+
 		}
 
 		@media screen and (max-width: 980px) {
@@ -3738,9 +3733,6 @@ input, select, textarea {
 				#footer .copyright {
 					text-align: left;
 				}
-				a.button{
-					margin-left: 130pt;
-					} 
 
 		}
 
@@ -3749,9 +3741,6 @@ input, select, textarea {
 			#footer {
 				padding: 3em 2em 1em 2em ;
 			}
-			a.button{
-				margin-left: 130pt;
-				} 
 
 		}
 
@@ -3760,9 +3749,6 @@ input, select, textarea {
 			#footer {
 				padding: 3em 1.5em 1em 1.5em ;
 			}
-			a.button{
-				margin-left: 130pt;
-				} 
 
 		}
 
@@ -3771,9 +3757,6 @@ input, select, textarea {
 			#footer {
 				padding: 2.5em 1em 0.5em 1em ;
 			}
-			a.button{
-				margin-left: 130pt;
-				} 
 
 		}
 
