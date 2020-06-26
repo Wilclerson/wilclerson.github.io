@@ -3706,7 +3706,7 @@ input, select, textarea {
 			width: 100%;
 			margin: 2.5em 0 2em 0;
 			font-size: 0.8em;
-			
+			padding-left: 2em;
 			
 		}
 
@@ -3714,6 +3714,9 @@ input, select, textarea {
 
 			#footer {
 				padding: 4em 4em 2em 4em ;
+			}
+			a.button{
+				padding-right: 18em;
 			}
 
 		}
@@ -3733,8 +3736,8 @@ input, select, textarea {
 					margin-bottom: 3em;
 				}
 
-				#footer .copyright {
-					text-align: left;
+				a.button{
+					padding-right: 18em;
 				}
 
 		}
@@ -3744,6 +3747,9 @@ input, select, textarea {
 			#footer {
 				padding: 3em 2em 1em 2em ;
 			}
+			a.button{
+				padding-right: 18em;
+			}
 
 		}
 
@@ -3751,6 +3757,9 @@ input, select, textarea {
 
 			#footer {
 				padding: 3em 1.5em 1em 1.5em ;
+			}
+			a.button{
+				padding-right: 18em;
 			}
 
 		}
@@ -3760,6 +3769,9 @@ input, select, textarea {
 			#footer {
 				padding: 2.5em 1em 0.5em 1em ;
 			}
+		a.button{
+			padding-right: 18em;
+		}
 
 		}
 
