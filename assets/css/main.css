@@ -3739,7 +3739,8 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#footer {
-				padding: 1.5em 0em 0.5em 4em ;
+				
+				padding: 2em 1em 2em 4em ;
 			}
 		
 
@@ -3749,7 +3750,7 @@ input, select, textarea {
 
 			#footer {
 				
-				padding: 2em 1em 2em 4em ;
+				padding: 1.5em 0em 0.5em 4em ;
 			}
 		
 
