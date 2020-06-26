@@ -99,11 +99,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-color: #858aa3;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #d19ea4 85%, #d4cee7 195%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #b17179 75%, #bfa9ff 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #7a595d 75%, #9a86d1 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #38a1e7 65%, #d2cce4 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2501,7 +2501,7 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		margin-left: -1em;
-		padding-left: 0;
+		padding-left: 08em;
 	}
 
 		ul.actions li {
@@ -3077,7 +3077,7 @@ input, select, textarea {
 	}
 
 		#header h1 {
-			margin: 0 0 0.25em 0;
+			margin: 0 0 0 0;
 		}
 
 		#header p {
@@ -3121,7 +3121,8 @@ input, select, textarea {
 				#header.alt .logo img {
 					display: block;
 					margin: 0 auto;
-					max-width: 75%;
+					max-width: 40%;
+				
 				}
 
 		@media screen and (max-width: 1280px) {
@@ -3693,8 +3694,9 @@ input, select, textarea {
 		padding: 5em 5em 3em 5em ;
 		width: calc(100% + 2em);
 		margin: 0 0 3em -2em;
+		text-align: center;
 	}
-
+	 
 		#footer > * {
 			width: calc(50% - 2em);
 			margin-left: 2em;
@@ -3704,7 +3706,8 @@ input, select, textarea {
 			width: 100%;
 			margin: 2.5em 0 2em 0;
 			font-size: 0.8em;
-			text-align: center;
+			padding-left: 2em;
+			
 		}
 
 		@media screen and (max-width: 1280px) {
