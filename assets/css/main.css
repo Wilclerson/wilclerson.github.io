@@ -3715,10 +3715,7 @@ input, select, textarea {
 			#footer {
 				padding: 4em 4em 2em 4em ;
 			}
-			a.button{
-				padding-right: 18em;
-			}
-
+		
 		}
 
 		@media screen and (max-width: 980px) {
@@ -3736,9 +3733,6 @@ input, select, textarea {
 					margin-bottom: 3em;
 				}
 
-				a.button{
-					padding-right: 18em;
-				}
 
 		}
 
@@ -3747,9 +3741,7 @@ input, select, textarea {
 			#footer {
 				padding: 3em 2em 1em 2em ;
 			}
-			a.button{
-				padding-right: 18em;
-			}
+		
 
 		}
 
@@ -3758,9 +3750,7 @@ input, select, textarea {
 			#footer {
 				padding: 3em 1.5em 1em 1.5em ;
 			}
-			a.button{
-				padding-right: 18em;
-			}
+		
 
 		}
 
@@ -3769,9 +3759,7 @@ input, select, textarea {
 			#footer {
 				padding: 2.5em 1em 0.5em 1em ;
 			}
-		a.button{
-			padding-right: 18em;
-		}
+	
 
 		}
 
