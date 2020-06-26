@@ -2500,8 +2500,7 @@ input, select, textarea {
 		display: flex;
 		cursor: default;
 		list-style: none;
-		margin-left: -1em;
-		padding-left: 08em;
+		margin-right: 30pt;
 	}
 
 		ul.actions li {
@@ -3706,15 +3705,14 @@ input, select, textarea {
 			width: 100%;
 			margin: 2.5em 0 2em 0;
 			font-size: 0.8em;
-			padding-left: 2em;
+			
 			
 		}
 
 		@media screen and (max-width: 1280px) {
 
 			#footer {
-				
-				padding: 2em 1em 2em 4em ;
+				padding: 4em 4em 2em 4em ;
 			}
 		
 		}
@@ -3740,8 +3738,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#footer {
-				
-				padding: 1.5em 0em 0.5em 4em ;
+				padding: 3em 2em 1em 2em ;
 			}
 		
 
@@ -3750,8 +3747,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#footer {
-				
-				padding: 1.5em 0em 0.5em 4em ;
+				padding: 3em 1.5em 1em 1.5em ;
 			}
 		
 
@@ -3760,7 +3756,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#footer {
-				padding: 1.5em 0em 0.5em 4em ;
+				padding: 2.5em 1em 0.5em 1em ;
 			}
 	
 
