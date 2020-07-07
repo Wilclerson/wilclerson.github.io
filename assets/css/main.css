@@ -3764,7 +3764,20 @@ input, select, textarea {
 	
 
 		}
-
+/* ----------- iPad Pro ----------- */
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px){
+	#footer {
+		padding: 0em ;
+	}
+	a.button{
+		margin-right: 4.35em;
+		margin-left: 17.19em;
+		
+	}
+}
 /* Wrapper */
 
 	#wrapper {
