@@ -1,11 +1,7 @@
 @import url(fontawesome-all.min.css);
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
 
-/*
-	Stellar by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -2429,7 +2425,7 @@ input, select, textarea {
 	ul {
 		list-style: disc;
 		margin: 0 0 2em 0;
-		padding-left: 1em;
+		
 	}
 
 		ul li {
@@ -2586,21 +2582,12 @@ input, select, textarea {
 					width: 100%;
 				}
 
-					ul.actions:not(.fixed) li > * {
-						width: 100%;
-					}
-
+			
 					ul.actions:not(.fixed) li:first-child {
 						padding-top: 0;
 					}
 
-					ul.actions:not(.fixed) li input[type="submit"],
-					ul.actions:not(.fixed) li input[type="reset"],
-					ul.actions:not(.fixed) li input[type="button"],
-					ul.actions:not(.fixed) li button,
-					ul.actions:not(.fixed) li .button {
-						width: 100%;
-					}
+					
 
 						ul.actions:not(.fixed) li input[type="submit"].icon:before,
 						ul.actions:not(.fixed) li input[type="reset"].icon:before,
@@ -3085,7 +3072,7 @@ input, select, textarea {
 		}
 
 		#header.alt {
-			padding: 7em 5em 4em 5em ;
+			padding: 1em ;
 		}
 
 			#header.alt h1 {
@@ -3180,7 +3167,7 @@ input, select, textarea {
 			}
 
 				#header.alt {
-					padding: 4em 1.5em 1em 1.5em ;
+					padding: 1em ;
 				}
 
 		}
@@ -3695,6 +3682,12 @@ input, select, textarea {
 		margin: 0 0 3em -2em;
 		text-align: center;
 	}
+	a.button{
+		margin-left:6.50em ;
+	}
+	p.copyright{
+		margin-left: 3em !important;
+	}
 	 
 		#footer > * {
 			width: calc(50% - 2em);
@@ -3714,6 +3707,7 @@ input, select, textarea {
 			#footer {
 				padding: 4em 4em 2em 4em ;
 			}
+			
 		
 		}
 
@@ -3731,8 +3725,16 @@ input, select, textarea {
 					margin-left: 0;
 					margin-bottom: 3em;
 				}
-
-
+		a.button{
+				margin-right: 5.5em;
+				margin-left: 5.05em;
+				
+			}
+			p.copyright{
+				margin-right: 7em !important;
+				margin-left: -0.24em !important;
+			}
+		
 		}
 
 		@media screen and (max-width: 736px) {
@@ -3740,6 +3742,7 @@ input, select, textarea {
 			#footer {
 				padding: 3em 2em 1em 2em ;
 			}
+			
 		
 
 		}
