@@ -1,4 +1,4 @@
-/// Makes an element's :before pseudoelement a FontAwesome icon.
+/// Makes an element's :before pseudoelement a  icon.
 /// @param {string} $content Optional content value to use.
 /// @param {string} $category Optional category to use.
 /// @param {string} $where Optional pseudoelement to target (before or after).
@@ -58,7 +58,6 @@
 
 }
 
-/// Encodes a SVG data URL so IE doesn't choke (via codepen.io/jakob-e/pen/YXXBrp).
 /// @param {string} $svg SVG data URL.
 /// @return {string} Encoded SVG data URL.
 @function svg-url($svg) {
