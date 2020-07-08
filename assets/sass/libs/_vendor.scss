@@ -1,4 +1,4 @@
-// vendor.scss v1.0 | @ajlkn | MIT licensed */
+
 
 // Vars.
 
@@ -11,8 +11,7 @@
 		''
 	);
 
-	/// Properties that should be vendorized.
-	/// Data via caniuse.com, github.com/postcss/autoprefixer, and developer.mozilla.org
+
 	/// @var {list}
 	$vendor-properties: (
 
@@ -192,8 +191,6 @@
 
 	);
 
-	/// Values that should be vendorized.
-	/// Data via caniuse.com, github.com/postcss/autoprefixer, and developer.mozilla.org
 	/// @var {list}
 	$vendor-values: (
 
@@ -249,8 +246,7 @@
 
 // Functions.
 
-	/// Removes a specific item from a list.
-	/// @author Hugo Giraudel
+
 	/// @param {list} $list List.
 	/// @param {integer} $index Index.
 	/// @return {list} Updated list.
@@ -287,7 +283,6 @@
 	}
 
 	/// Replaces a substring within another string.
-	/// @author Hugo Giraudel
 	/// @param {string} $string String.
 	/// @param {string} $search Substring.
 	/// @param {string} $replace Replacement.
